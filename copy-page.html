@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="copypage.css">
+</head>
+<body>
+    <h1>Copy Snippet Manager</h1>
+    <input type="text" id="add" onkeydown="addSnippet(event)">
+    <button onclick="addSnippet(this)">Add New</button>
+    <br>
+    <br>
+    <div id="snippetDiv"></div>
+    <br>
+    <br>
+    <div>Hotkeys (1-9): Use the number keys to copy respective snippets.</div>
+    <div>Hold ctrl to select multiple snippets.</div>
+    <div>Hover over the numbers to delete items.</div>
+    <script src="copy2.js"></script>
+</body>
+</html>
